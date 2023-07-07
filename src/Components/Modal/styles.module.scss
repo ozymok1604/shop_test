@@ -1,0 +1,71 @@
+.modal {
+  width: 600px;
+  height: 700px;
+  background: white;
+  position: fixed;
+  border: 2px solid black;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.buttons {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  color: white;
+  bottom: 20px;
+  justify-content: space-around;
+}
+
+.cancel_button {
+  background-color: red;
+  width: 200px;
+  height: 80px;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-size: 16px;
+  margin: 10px;
+}
+
+.confirm_button {
+  font-size: 16px;
+  background-color: green;
+  border-radius: 3px;
+  border: none;
+  width: 200px;
+  height: 80px;
+  color: white;
+  margin: 10px;
+}
+
+.cancel_button:hover {
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2), 0 16px 20px rgba(0, 0, 0, 0.2);
+}
+.confirm_button:hover {
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2), 0 16px 20px rgba(0, 0, 0, 0.2);
+}
+
+.input {
+  height: 30px;
+  width: 260px;
+  margin-bottom: 20px;
+  border: 2px solid black;
+}
+
+.flex_container {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.description {
+  height: 80px;
+  padding: 2px;
+  width: 260px;
+  margin-bottom: 20px;
+  border: 2px solid black;
+}
